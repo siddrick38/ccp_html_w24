@@ -1,0 +1,61 @@
+* {
+  background-color: papayawhip;
+}
+
+h1 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  text-decoration: underline;
+}
+
+/* recipes css */
+
+.recipe-container {
+  margin-left: 8px;
+}
+
+.recipe-info {
+  width: 70%;
+  margin-left: 15px;
+}
+
+.recipe-title {
+  color: red;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* travel css */
+
+.travel-format {
+  margin-left: 8px;
+}
+
+/* pets css */
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5px;
+}
+
+.image-container img {
+  width: 270px;
+  height: auto;
+  margin-right: 5px; /* adjusts spacing between images */
+}
+
+.image-container video {
+  width: 270px;
+  height: auto;
+  margin-right: 5px; /* adjusts spacing for video/mov */
+}
+
+.image-container figcaption {
+  text-align: center;
+}
+
+.pets {
+  margin-left: 8px;
+}
